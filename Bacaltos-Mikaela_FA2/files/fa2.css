@@ -19,7 +19,7 @@ h1{
 }
 
 button, input, label{
-	font-size: 25px;
+	font-size: 30px;
 }
 
 button{
@@ -32,12 +32,10 @@ button{
 input{
 	width: 100px;
 	background-color: rgb(151, 153, 166);
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 div.rslt{
-    font-size: 20px;
-	height: 50px;
+    font-size: 25px;
 	margin: auto;
-	margin-top: 30px;
 }
