@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+    text-align: center;
+    background-color: #c2cacc;
+}
+
+h1{
+    font-size: 90px;
+    color: hsl(222, 19%, 40%);
+    float: right;
+}
+
+.ttls{
+    text-align: center;
+    height: 120px;
+    width: 520px;
+    margin: auto;
+}
+
+button, input, label{
+	font-size: 25px;
+}
+
+button{
+	background-color: rgb(151, 153, 166);
+	margin: 5px;
+	height: 30px;
+	width: 30px;
+}
+
+input{
+	width: 100px;
+	background-color: rgb(151, 153, 166);
+	margin-right: 15px;
+}
+
+div.rslt{
+    font-size: 20px;
+	height: 50px;
+	margin: auto;
+	margin-top: 30px;
+}

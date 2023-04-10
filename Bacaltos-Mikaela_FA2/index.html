@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator FA2</title>
+    <script src="files/fa2.js"></script>
+    <link rel="stylesheet" type="text/css" href="files/fa2.css">
+    
+</head>
+<body>
+    <div class="ttls">
+        <div class="head"><h1>Calculating!</h1></div>
+    </div>
+
+    <form action="num1">
+        
+        <label>1st Value </label>
+        <input id="num1" type="text" oninput="frstNum()">
+
+        <label>2nd Value </label>
+        <input id="num2" type="text" oninput="scndNum()">
+        <br><br>
+
+        <button id="addtn" onclick="addi()">+</button>
+        <button id="sbtrctn" onclick="subt()">-</button>
+        <button id="mltply" onclick="mult()">*</button>
+        <button id="dvsn" onclick="divi()">/</button>
+        <button id="prcnt" onclick="perc()">%</button>
+s
+        <br><br>
+        <div class="rslt">
+            <p id="rslt" style="background-color: #434646; color: rgb(221, 219, 228);">Answer!</p>
+        </div>
+    </form>       
+ 
+</body>
+</html>
